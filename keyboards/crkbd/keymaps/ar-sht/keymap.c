@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [1] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_TAB,    KC_ESC,    KC_WBAK,    KC_WSCH,    KC_WFWD,    KC_INS,                         KC_PGUP,    KC_HOME,    KC_UP,    KC_END,    KC_CAPS, XXXXXXX,
+       KC_TAB,    KC_ESC,    KC_WBAK,    KC_WSCH,    KC_WFWD,    KC_INS,                         KC_PGUP,    KC_HOME,    KC_UP,    KC_END,    KC_UNDS, XXXXXXX,
   //|---------+-------------+--------------+--------------+---------------+---------|      |--------+--------+--------+--------+--------+--------|
       XXXXXXX, OSM(MOD_LALT), OSM(MOD_LCTL), OSM(MOD_LSFT), OSM(MOD_LGUI), KC_WFAV,         KC_PGDN, KC_LEFT,   KC_DOWN, KC_RGHT, KC_DEL, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                             |--------+--------+--------+--------+--------+--------|
@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, KC_MINS, KC_UNDS, KC_RCBR, KC_RPRN, KC_RBRC,                      KC_0, KC_1, KC_2, KC_3, KC_PSLS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI,   XXXXXXX,  MO(4),     XXXXXXX, _______, KC_RALT
+                                          KC_LGUI,   MO(3),  MO(4),     XXXXXXX, _______, KC_RALT
                                       //`--------------------------'  `--------------------------'
   ),
 
